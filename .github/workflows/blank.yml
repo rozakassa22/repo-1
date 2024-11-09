@@ -37,4 +37,6 @@ jobs:
       - name: installing dependency
         run: npm install htmlhint --save-dev  
       - name: hello. test
-        run: npx htmlhint  hello.html
+        run: |
+         npx htmlhint hello.html
+         npx htmlhint index.html
